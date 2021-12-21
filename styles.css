@@ -2,6 +2,7 @@
 
 :root {
   --primary-color: #12B0E8;
+  --dark-gray: #94a3b8;
 }
 
 body {
@@ -60,6 +61,60 @@ hr{
     padding: 0rem 0.5rem;
 }
 
+/* Nav */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    }
+
+.navigation .link{
+    color: white;
+    text-align: right;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1rem;
+}
 
 
+.hero{
+    padding: 2rem;
+    }
 
+    .hero .hero-img{
+        max-width: 350px;
+        display: block;
+        margin: auto;
+            }
+
+.hero .hero-heading{
+    font-size: 2rem;
+    color: var(--dark-gray);
+    padding: 1rem;
+}            
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+
+/* Sections */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1, h2, h3, p {
+    text-align: center;
+    }
+
+.ow{
+    background-color: #cbd5e1 ;
+}
