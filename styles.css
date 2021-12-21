@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&display=swap");
+
+:root {
+  --primary-color: #12B0E8;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/* Container */
+.container {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.container-fluid {
+}
+
+/* Links */
+
+ .link{
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+ }
+.primary-link {
+      background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.secondary-link {
+  color: #12B0E8;
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
+  text-decoration: none;
+}
+
+/* Look into BEM naming convention */
+
+/* Lists */
+
+
+
+

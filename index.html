@@ -7,8 +7,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet"/>
 </head>
+
 <body>
     <h1>Rohan's Component Library</h1>
     <p>I am attending  neog.camp and want to create a library to maintain consistancy.</p>
@@ -16,29 +18,34 @@
     <hr>
 
     <h2> Typography</h2>
+    <h1>This is the biggest heading</h1>
     <h2> This is the second higgest heading</h2>
     <p> This is a paragraph.</p>
+    <p>This will have a <strong>bold</strong> text</p>
     <small>This is relatively a smaller text</small>
 
     <hr>
 
     <h2>@Container</h2>
 
-    <h3>Fluid Container</h3>
-    <div> This is fluid Container and it will go till the end</div>
+    <h3 >Fluid Container</h3>
+    <div class="container"> This is fluid Container and it will go till the end</div>
     <h3>Center Container</h3>
-    <div> This is center Container and it will go till the center</div>
+    <div class="container container-center"> This is center Container and it will go till the center</div>
 
     <hr>
 
     <h2> @Links</h2>
     <!-- Inline blocks -->
-    <a href="https://google.com"> Primary Link</a>
-    <a href="">Secondary Link</a>
+    <a class=" link primary-link" href="https://google.com"> Primary Link</a>
+    <a class="link secondary-link" href="">Secondary Link</a>
+
+    <br>
+
 
     <hr>
 
-    <h2> @Links</h2>
+    <h2> @Lists</h2>
 
     <h3> Unordered List</h3>
 
@@ -57,7 +64,7 @@
 
     <h3>Order List</h3>
 
-    <ol>
+    <ol reversed>
         
             <li>  Egg</li>
             <li>  Milk</li>
@@ -92,6 +99,37 @@
     <img src="images/hero.svg"/>
     <h3> Heading inside the Hero</h3>
     </header>
+
+    <hr>
+
+    <h2> @Sections</h2>
+
+    <section>
+    <h3> Off White Section</h3>
+    <p> This will go from end to end with little margin on both sides</p>
+
+    </section>
+
+    <section>
+        <h3> White Section</h3>
+        <p> This will go from end to end with little margin on both sides</p>
+    
+    </section>
+
+    <hr>
+
+    <h2> @Footer</h2>
+
+
+    <footer>
+        <div> some small headings inside the footer</div>
+        <ul>
+            <li> Socialone</li>
+            <li>Socialtwo</li>
+            <li>Socialthree</li>
+        </ul>
+
+    </footer>
 
 
     </body>
