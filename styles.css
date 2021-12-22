@@ -2,12 +2,13 @@
 
 :root {
   --primary-color: #12B0E8;
-  --dark-gray: #94a3b8;
+  --dark-gray: #f8fafc;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0px;
+  ;
 }
 
 hr{
@@ -32,6 +33,8 @@ hr{
  .link{
      text-decoration: none;
      padding: 0.5rem 1rem;
+     margin: 1rem;
+     margin-bottom: 1rem;
  }
 .primary-link {
       background-color: var(--primary-color);
@@ -59,7 +62,7 @@ hr{
 .list-inline{
 
     display: inline;
-    padding: 0rem 0.5rem;
+    padding: 0rem 1rem;
 }
 
 /* Nav */
@@ -98,8 +101,8 @@ hr{
 
 .hero .hero-heading{
     font-size: 2rem;
-    color: var(--dark-gray);
-    padding: 1rem;
+    color: #FF6263;
+    
 }            
 
 .hero .hero-heading .heading-inverted{
@@ -117,8 +120,13 @@ hr{
     }
 
 .ow{
-    background-color: #cbd5e1 ;
+    background-color: #e2e8f0 ;
+    /* padding:1rem 0.5rem; */
+    padding: 1rem 0.5rem;
+    
 }
+    
+
 
 /* Footer */
 
@@ -132,6 +140,12 @@ footer{
 
 .footer .link{
     color: white;
+}
+
+.footer .footer-header{
+
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
